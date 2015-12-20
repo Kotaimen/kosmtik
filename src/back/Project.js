@@ -21,6 +21,8 @@ var Project = function (config, filepath, options) {
     this.mapnik.register_system_fonts();
     this.mapnik.register_default_input_plugins();
     this.mapnik.register_fonts(path.join(path.dirname(filepath), 'fonts'), {recurse: true});
+    this.mapnik.register_fonts(path.join(path.dirname(filepath), 'font'), {recurse: true});
+
     this.changeState('init');
     this.cachePath = path.join('tmp', this.id);
     this.beforeState('loaded', this.initCache);
