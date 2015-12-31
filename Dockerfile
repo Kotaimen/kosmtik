@@ -8,6 +8,6 @@ EXPOSE      6789
 
 WORKDIR     /usr/src/app
 
-ADD         http://cdn.masonmaps.me/dist/fonts/Arial+Unicode.ttf src/app/front/fonts/
+ADD         http://cdn.masonmaps.me/dist/fonts/Arial+Unicode.ttf front/fonts/
 
 ENTRYPOINT  ["./docker_run.sh"]
