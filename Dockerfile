@@ -1,4 +1,4 @@
-FROM        node:4.2.5-onbuild
+FROM        node:4.2.6-onbuild
 
 RUN         node index.js plugins \
                 --install kosmtik-osm-data-overlay \
