@@ -1,4 +1,4 @@
-FROM        node:4.2.6-onbuild
+FROM        node:4.3-onbuild
 
 RUN         node index.js plugins \
                 --install kosmtik-osm-data-overlay \
@@ -8,6 +8,6 @@ EXPOSE      6789
 
 WORKDIR     /usr/src/app
 
-ADD         http://cdn.masonmaps.me/dist/fonts/Arial+Unicode.ttf front/fonts/
+ADD         http://cdn.knrdesign.co/dist/fonts/Arial+Unicode.ttf front/fonts/
 
 ENTRYPOINT  ["./docker_run.sh"]
