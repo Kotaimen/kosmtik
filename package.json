@@ -18,20 +18,20 @@
   "author": "Yohan Boniface",
   "license": "WTFPL",
   "dependencies": {
-    "carto": "0.15.3",
-    "generic-pool": "^2.4.0",
-    "js-yaml": "^3.4.6",
+    "carto": "^0.15.3",
+    "generic-pool": "^2.2.0",
+    "js-yaml": "^3.4.2",
     "json-localizer": "0.0.3",
-    "leaflet": "1.0.0-beta.2",
-    "leaflet-formbuilder": "0.2.1",
-    "leaflet-hash": "0.2.1",
-    "mapnik": "3.4.12",
+    "leaflet": "^1.0.0-beta.2",
+    "leaflet-formbuilder": "^0.2.0",
+    "leaflet-hash": "^0.2.1",
+    "mapnik": "^3.4.17",
     "nomnom": "^1.8.1",
-    "npm": "^3.5.3",
+    "npm": "^3.3.5",
     "request": "^2.64.0",
-    "semver": "^5.1.0"
+    "semver": "^5.0.3"
   },
   "devDependencies": {
-    "mocha": "2.2.5"
+    "mocha": "^2.2.5"
   }
 }
