@@ -1,4 +1,4 @@
-FROM        node:4.3-onbuild
+FROM        node:argon-onbuild
 
 RUN         node index.js plugins \
                 --install kosmtik-osm-data-overlay \
@@ -7,7 +7,5 @@ RUN         node index.js plugins \
 EXPOSE      6789
 
 WORKDIR     /usr/src/app
-
-ADD         http://cdn.knrdesign.co/dist/fonts/Arial+Unicode.ttf front/fonts/
 
 ENTRYPOINT  ["./docker_run.sh"]
